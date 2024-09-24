@@ -1,0 +1,19 @@
+# Cache
+.sf
+.sfdx
+
+# Config
+config
+jest.config.js
+package.json
+
+# IDE Specific
+IlluminatedCloud/
+.idea
+*.iml
+.eslintignore
+.forceignore
+sfdx-project.json
+
+# SF
+manifest
