@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>Tournmanet type. Specifies phases that will be added to the tournament process</description>
+    <label>Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cup</fullName>
+                <default>false</default>
+                <label>Cup</label>
+            </value>
+            <value>
+                <fullName>Cup (with groups)</fullName>
+                <default>false</default>
+                <label>Cup (with groups)</label>
+            </value>
+            <value>
+                <fullName>Battle Royale</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Battle Royale</label>
+            </value>
+            <value>
+                <fullName>League</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>League</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

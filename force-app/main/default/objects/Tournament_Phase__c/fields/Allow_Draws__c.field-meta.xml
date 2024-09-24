@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_Draws__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Are draw matches allowed?</description>
+    <inlineHelpText>Final and 3rd place matches will not be affected by this option</inlineHelpText>
+    <label>Allow Draws</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
